@@ -1,0 +1,20 @@
+//Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+// Default variable overrides
+$dark: #000;
+$primary: rgb(55, 202, 197);
+$font-family-sans-serif: 'Poppins', 'Helvetica', sans-serif;
+$list-group-color: grey;
+$border-radius: 20px;
+
+.btn{
+    transition: all .1s ease-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+// Required
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
